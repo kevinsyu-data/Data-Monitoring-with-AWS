@@ -16,7 +16,7 @@ The project focuses on monitoring and alerting based on activity volume.
 
 ## Requirements
 - Languages: Python 3.12+
-- Libraries: boto3, json, orllib.request
+- Libraries: boto3, json, urllib.request
 - Cloud Platform: AWS
   - S3 for raw JSON storage
   - AWS EventBridge for scheduled requests
