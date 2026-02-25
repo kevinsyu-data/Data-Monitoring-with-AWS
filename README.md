@@ -6,13 +6,13 @@ The project focuses on monitoring and alerting based on activity volume.
 - Stores raw responses in Amazon S3
 - Sends automated email alerts via Amazon SNS when data quality issues are detected.
 ## Architecture
-  EventBridge Scheduler (12-hour schedule)
-          ↓
-  AWS Lambda (ingestion + validation)
-          ↓
-  Amazon S3 (raw data storage)
-          ↓
-  Amazon SNS (email alerts)
+    EventBridge Scheduler (12-hour schedule)
+            ↓
+    AWS Lambda (ingestion + validation)
+            ↓
+    Amazon S3 (raw data storage)
+            ↓
+    Amazon SNS (email alerts)
 
 ## Requirements
 - Languages: Python 3.12+
