@@ -4,7 +4,7 @@ Serverless GitHub Watchtower project that monitors the health and availability o
 The project focuses on monitoring and alerting based on activity volume.
 - Periodically ingests data from the GitHub Public Events API
 - Stores raw responses in Amazon S3
-- Sends automated email alerts via Amazon SNS when data quality issues are detected.
+- Sends automated email alerts via Amazon SNS when data quality issues (activity volume lower than designed threshold) are detected.
 ## Architecture
     EventBridge Scheduler (12-hour schedule)
             ↓
