@@ -22,5 +22,7 @@ The project focuses on monitoring and alerting based on activity volume.
   - AWS EventBridge for scheduled requests
   - AWS Lambda for API requests, raw JSON ingestion, and conditional alert
   - AWS SNS
+- Data Format: JSON, JSON Lines, Parquet
+- API: OpenAQ REST API
 ## Note
 
